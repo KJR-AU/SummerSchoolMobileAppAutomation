@@ -1,0 +1,6 @@
+[caps]
+platformName = "ios"
+platformVersion = "8.4"
+deviceName = "Mark's iPad"
+udid = "6890d8d7a333940c4b4491e5e9024800caef986c"
+browser  = "safari"

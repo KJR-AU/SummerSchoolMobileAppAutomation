@@ -1,0 +1,7 @@
+[caps]
+platformName = "ios"
+platformVersion = "8.3"
+deviceName = "Faiz"
+udid = "1962c98a9cbd4c880e033727b4fe8b4af7a3c5fb"
+app = "./ABCPhone-resigned.ipa"
+bundleID = "com.chailight.ABC"

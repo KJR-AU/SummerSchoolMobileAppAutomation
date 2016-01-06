@@ -1,0 +1,199 @@
+/* 
+    Document   : design
+    Created on : 
+    Author     : Automation Tester (SQS)
+    Description: Purpose of the stylesheet follows.
+*/
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;   
+    text-align: center;  
+
+    min-width: 1200px;
+    min-height: 750px;    
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color:#C6B9AC;
+    background-color: #82BC00;
+    /*background-color: #E03C31;
+    background-color: #21ABCD;*/
+    background-color: #0F212E;
+}
+
+#mainTable{
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+
+    border-collapse: collapse;
+
+    border-left: 1px solid #ccc ;
+    border-right: 1px solid #ccc ;
+
+    /*box-shadow: 1px 1px 10px 3px #ccc;*/
+
+    background-color: white;
+}
+
+
+#header{
+    height: 120px;
+    text-align: center;
+    border-bottom: 1px solid #ccc ;
+
+
+    /*text-shadow: 1px 0 1px #cccccc;*/
+    color: #222;
+
+}
+
+#headertext{    
+	padding-top:15px;
+    font-family: Segoe UI Light;   
+    font-size: 36px;
+    color: black;
+}
+
+#logo{
+
+}
+
+
+#container{
+
+}
+
+.chartStyle{
+
+    height: 290px;
+
+    margin-top: 30px;
+    width: 85%;
+
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B0B0B0;
+
+    /* Shadow for boxes */
+    -moz-box-shadow: 0 0 10px #CCCCCC;
+    -ms-box-shadow: 0 0 10px #CCCCCC;
+    -webkit-box-shadow: 0 0 10px #CCCCCC;
+    box-shadow: 0 0 10px #CCCCCC;
+
+    zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=0),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=90),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=180),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=270);
+    background-color: white;
+} 
+
+.chartStyle:hover{
+    background-color:#F2F2F2;
+}
+
+#content{
+    width: 80%;
+    vertical-align: top;
+    padding: 15px;
+}
+
+ /***************************************************************************/
+#tableStyle{
+    background-color: white;
+    color: #585858;
+
+    font-size: 13px;
+
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+    width: 100%;
+
+    border-collapse:collapse;
+
+    /* Shadow for boxes */
+    -moz-box-shadow: 0 0 10px #CCCCCC;
+    -ms-box-shadow: 0 0 10px #CCCCCC;
+    -webkit-box-shadow: 0 0 10px #CCCCCC;
+    box-shadow: 0 0 10px #CCCCCC;
+
+    zoom: 1;
+    filter:  progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=0),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=90),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=180),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=270);
+}
+#tableStyle img{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    width: 70px;
+    border: 1px solid skyblue;
+}
+
+
+#tableStyle th{
+    font-size: 16px;   
+    font-family: Segoe UI Light;
+    height: 35px;
+    background-color: #47A375 ;
+    color: black;
+}
+#tableStyle td
+{
+    border: 1px solid #ccc;
+    padding: 4px 4px;                
+}
+
+#tableStyle a:link,a:visited,a:active{
+    display: block;
+    color: #585858;
+    text-decoration: none;
+}
+
+#tableStyle a:hover{
+    color: #0066FF;
+}
+
+.info{
+    
+    font-family: Segoe UI Light;
+    margin-top: 0px;
+    /*border-radius: 3px;*/
+    padding-top: 0px;    
+    padding-bottom: 10px;
+    /*border: 1px solid #ccc;*/ 
+    /*border-top: 0px;*/
+    color: #585858;
+    font-size: 14px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: black;
+      
+}
+
+.summary{
+    float: left;
+    width: 200px;
+    font-family: Segoe UI Light;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 280px;    
+    color: white;    
+}
+
+.summary:hover{
+    color: black;
+    background-color:#F2F2F2;
+}
+
+#tableStyle tr:hover{
+    background-color:#F2F2F2;
+    color:Black;
+}

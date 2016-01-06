@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="78.261984">
+<testcase classname="odoo POS" name="Navigate to POS" time="78.261984">
+<system-out><![CDATA[Given Open app..............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
